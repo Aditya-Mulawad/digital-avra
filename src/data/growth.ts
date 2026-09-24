@@ -1,0 +1,126 @@
+export type GrowthStage = {
+  number: string;
+  name: string;
+  summary: string;
+  items: string[];
+};
+
+export const growthStages: GrowthStage[] = [
+  {
+    number: "01",
+    name: "Build",
+    summary: "Establish your digital foundation.",
+    items: ["Website", "Landing Pages", "Branding", "Hosting", "Analytics"],
+  },
+  {
+    number: "02",
+    name: "Attract",
+    summary: "Bring qualified people to your business.",
+    items: ["SEO", "Google Ads", "Meta Ads", "Social Media"],
+  },
+  {
+    number: "03",
+    name: "Convert",
+    summary: "Turn attention into enquiries.",
+    items: [
+      "Landing Pages",
+      "Lead Forms",
+      "CTAs",
+      "Conversion Tracking",
+      "Remarketing",
+    ],
+  },
+  {
+    number: "04",
+    name: "Scale",
+    summary: "Improve what is working.",
+    items: [
+      "Analytics",
+      "A/B Testing",
+      "SEO Growth",
+      "Campaign Optimization",
+      "Performance Reporting",
+    ],
+  },
+];
+
+export type ProcessStep = { number: string; name: string; description: string };
+
+export const processSteps: ProcessStep[] = [
+  {
+    number: "01",
+    name: "Discover",
+    description:
+      "We understand your business, audience, competition and goals.",
+  },
+  {
+    number: "02",
+    name: "Strategize",
+    description:
+      "We create a digital roadmap based on your priorities and budget.",
+  },
+  {
+    number: "03",
+    name: "Build",
+    description:
+      "Website, landing pages, branding, tracking and digital infrastructure.",
+  },
+  {
+    number: "04",
+    name: "Launch",
+    description:
+      "SEO, social media, Meta Ads, Google Ads and content campaigns.",
+  },
+  {
+    number: "05",
+    name: "Optimize",
+    description:
+      "We monitor performance, identify opportunities and continuously improve.",
+  },
+];
+
+export const whyDigitalAvra = [
+  {
+    number: "01",
+    title: "Everything Under One Roof",
+    description:
+      "Website, SEO, advertising, social media, branding and digital infrastructure — managed through one digital partner.",
+  },
+  {
+    number: "02",
+    title: "Built Around Business Goals",
+    description:
+      "We don't start with platforms. We start with your business objective, audience and growth opportunity.",
+  },
+  {
+    number: "03",
+    title: "Performance, Not Just Presence",
+    description:
+      "Your digital presence should generate measurable outcomes — enquiries, calls, leads and sales.",
+  },
+  {
+    number: "04",
+    title: "Data-Driven Decisions",
+    description:
+      "We use analytics, tracking and campaign data to understand what's working and continuously improve.",
+  },
+  {
+    number: "05",
+    title: "Built to Scale",
+    description:
+      "Start with what you need today and expand as your business grows.",
+  },
+];
+
+/**
+ * METRICS — no verified figures yet, so `value` is null and a neutral label
+ * is shown instead. Add a number here once it can be substantiated.
+ */
+export type Metric = { label: string; value: number | null; suffix?: string; note: string };
+
+export const metrics: Metric[] = [
+  { label: "Projects Delivered", value: null, suffix: "+", note: "Reported on request" },
+  { label: "Qualified Leads Generated", value: null, suffix: "+", note: "Tracked per client" },
+  { label: "Client Satisfaction", value: null, suffix: "%", note: "Reviewed each quarter" },
+  { label: "Digital Campaigns", value: null, suffix: "+", note: "Across search & social" },
+];
