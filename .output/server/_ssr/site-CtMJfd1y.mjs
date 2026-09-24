@@ -9,7 +9,7 @@ var site = {
 	positioning: "Digital Solutions & Growth Agency",
 	description: "Digital Avra helps businesses build, market and grow online through websites, SEO, advertising, social media, branding and digital infrastructure.",
 	location: "Bangalore, India",
-	email: "adityamulawad3@gmail.com",
+	email: "digitalavra@gmail.com",
 	whatsappNumber: "+91 93536 60232",
 	whatsappMessage: "Hi Digital Avra, I'd like to know more about your digital growth services.",
 	social: {
